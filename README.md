@@ -20,10 +20,6 @@
 
 
 
-## 小程序在线Demo
-
-<img src="./img/weChatAppdemo.jpg">
-
 # 微信小程序文件结构
 
 ## 主体文件结构
@@ -46,8 +42,6 @@
 | [wxml](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/) | 是    | 页面结构  ( XML语法，不是HTML语法 )           |
 | [wxss](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxss.html) | 否    | 页面样式表 ( **拓展了rpx尺寸单位，微信专属响应式像素** ) |
 | [json](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#pagejson) | 否    | 页面配置  ( 不能写注释，否则编译报错 )             |
-
-<img src="./img/fileTree.png" />
 
 # 微信小程序配置
 
@@ -78,7 +72,6 @@
 | enablePullDownRefresh        | Boolean  | false   | 是否开启下拉刷新，详见[页面相关事件处理函数](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/page.html#页面相关事件处理函数)。 |
 | onReachBottomDistance        | Number   | 50      | 页面上拉触底事件触发时距页面底部距离，单位为px                 |
 
-<img src="./img/config.jpg" />
 
 ### [tabBar](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#tabbar)
 
@@ -109,9 +102,6 @@
 | iconPath         | String | 否    | 图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px，当 postion 为 top 时，此参数无效 |
 | selectedIconPath | String | 否    | 选中时的图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px ，当 postion 为 top 时，此参数无效 |
 
-图示：
-
-<img src="./img/tabBar.png" />
 
 
 
