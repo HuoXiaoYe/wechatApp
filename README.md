@@ -14,7 +14,5 @@ WXML在语法上更接近XML语言，遵循SGML规范，区别于HTML语言随�
 
 ### 尺寸单位
 * WXSS支持的单位有px、rem和rpx，其中rem和rpx可以针对屏幕容器进行适配，px则为固定尺寸。
-
 在iPhone6上，1rpx=0.5px。建议：开发微信小程序时设计师可以用 iPhone6 作为视觉稿的标准。
-
 在WXSS和WXML中定义的rpx单位最终会转换为在手机端可以识别的rem单位
