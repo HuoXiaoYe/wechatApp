@@ -1,0 +1,62 @@
+.container swiper{
+  width: 100%;
+  height: 290rpx;
+}
+.container swiper image{
+  width: 100%;
+  height: 290rpx;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav .nav-item{
+  position: relative;
+  padding-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 160rpx;
+  font-size: 28rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav .nav-item::after{
+  content: "";
+  width: 1rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+}
+.nav .nav-item:nth-child(4n)::after{
+  width: 0;
+}
+
+.nav .nav-item image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.nav .nav-item text{
+  padding-top: 10rpx;
+}
+.container .split{
+  height: 30rpx;
+  background-color: #f3f5f7;
+}
+.nav-img{
+  padding-top: 40rpx;
+  display: flex;
+}
+.nav-img .nav-img-item{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.nav-img .nav-img-item image{
+  width: 350rpx;
+  height: 200rpx;
+}
