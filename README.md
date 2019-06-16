@@ -4,22 +4,6 @@
 
 ### 偷过来的一些知识点 嘻嘻嘻
 
-# 微信小程序账号与工具
-
-在线文档：https://mp.weixin.qq.com/debug/wxadoc/dev/
-
-## 小程序开发者账号注册
-
-微信公众平台：https://mp.weixin.qq.com/
-
-小程序开发者账号注册：https://mp.weixin.qq.com/wxopen/waregister?action=step1
-
-## 微信开发者工具
-
-微信开发者工具：https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html
-
-
-
 # 微信小程序文件结构
 
 ## 主体文件结构
